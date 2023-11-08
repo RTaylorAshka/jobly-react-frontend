@@ -1,0 +1,217 @@
+header {
+  display: flex;
+  width: inherit;
+  height: 5rem;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.8);
+
+  border-color: black;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+.max-width {
+  width: 90%;
+}
+
+.max-height {
+  height: 45rem;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: center;
+}
+
+.flex-row-l {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: left;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-grow-s {
+  width: 25%;
+}
+
+.flex-grow-l {
+  width: 50%;
+}
+
+.margin-s {
+  margin: 0.5rem;
+}
+
+.margin-l {
+  margin: 2rem;
+}
+
+.margin-right {
+  margin-right: 2rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+
+a.nav {
+  color: rgb(175, 138, 82);
+  text-decoration: inherit;
+}
+
+a.nav:hover {
+  color: #fdfdfd;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.nav.active {
+  color: white;
+}
+
+.logo {
+  width: 35rem;
+  height: 18rem;
+  object-fit: cover;
+  margin: 1rem;
+}
+
+.logo-mini {
+  width: 3rem;
+  height: 3rem;
+}
+
+.content {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+
+  bottom: 10px;
+
+}
+
+.home {
+  position: absolute;
+  width: 100%;
+  top: 7rem;
+  bottom: 0px;
+  /* background: url(/pawel-czerwinski-e4PI3UWIeVU-unsplash.jpg) no-repeat;
+  background-size: cover; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+
+  padding-top: 5rem;
+}
+
+
+.card {
+  color: rgb(41, 26, 11);
+  margin-top: 1rem;
+
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 3px;
+  padding: 20px;
+  padding-left: 2rem;
+  margin: 0.5rem;
+
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.card-outlined {
+  color: rgb(41, 26, 11);
+  margin-top: 1rem;
+
+  border-color: rgb(185, 185, 185);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  padding: 20px;
+  padding-left: 2rem;
+  margin: 0.5rem;
+
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.item {
+  cursor: pointer;
+  margin: 0px;
+  padding: 10px;
+  padding-bottom: 20px;
+  transition: background-color 0.25s;
+}
+
+.item:hover,
+a:hover {
+  color: rgb(139, 107, 59);
+}
+
+.search {
+  overflow: scroll;
+  height: 45rem;
+}
+
+.error {
+  color: rgb(209, 80, 80);
+}
+
+label {
+  font-weight: bold;
+  color: rgb(85, 66, 36);
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: fit-content;
+  text-align: start;
+  line-height: 1rem;
+}
+
+input,
+button,
+select {
+  transform: translateY(0.2rem);
+}
+
+input {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+
+}
+
+input.input-xs {
+  max-width: 5rem;
+}
+
+input[type=checkbox] {
+  width: 1rem;
+  height: 1rem;
+}

@@ -1,0 +1,75 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: rgba(0, 0, 0, 0.87);
+  /* background-color: #000000;
+  background: linear-gradient(0deg, rgb(39, 39, 39) 0%, rgb(59, 57, 55) 100%); */
+
+  background: url(/pawel-czerwinski-e4PI3UWIeVU-unsplash.jpg) no-repeat;
+  background-blend-mode: soft-light;
+  background-color: rgb(68, 68, 68);
+  background-size: cover;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+
+}
+
+
+body,
+#root {
+  margin: 0;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6rem;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #a58970;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+input,
+select,
+option {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6rem;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  color: black;
+  background-color: #adadad;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+}
+
+input:disabled {
+  background-color: inherit;
+  color: rgb(37, 37, 37);
+}
+
+button:hover {
+  border-color: #ffffff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
