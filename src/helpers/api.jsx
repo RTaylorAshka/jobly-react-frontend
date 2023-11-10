@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-    baseURL: 'http://localhost:3001'
+    baseURL: 'https://jobly-api-w1ce.onrender.com'
 });
 
 // Wraps all api requests to check if backend is down, return 500 error message if unable to connect
